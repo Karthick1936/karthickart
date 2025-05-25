@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karthickart Clone</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Karthickart</div>
+    <input type="text" class="search-bar" placeholder="Search for products, brands and more">
+    <button class="login-btn">Login</button>
+    <div class="nav-links">
+      <a href="#">Become a Seller</a>
+      <a href="#">More</a>
+      <a href="#">Cart</a>
+    </div>
+  </header>
+
+  <section class="categories">
+    <div class="category">Grocery</div>
+    <div class="category">Mobiles</div>
+    <div class="category">Fashion</div>
+    <div class="category">Electronics</div>
+  </section>
+
+  <section class="banner">
+    <img src="https://via.placeholder.com/1200x300" alt="Banner">
+  </section>
+
+  <section class="product-section">
+    <h2>Best of Electronics</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product">
+        <p>Product Name</p>
+        <p>₹9,999</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Karthickart Clone by Karthick S. For Educational Use Only.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Login to Karthickart</h2>
+      <input type="text" placeholder="Username" id="username">
+      <input type="password" placeholder="Password" id="password">
+      <button onclick="login()">Login</button>
+    </div>
+  </div>
+  </body>
+</html>
